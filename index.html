@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Lakshya IT Conulting Pvt Ltd</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="icon" href="img/favicon.png" type="images/png">
+
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+    <link href="css/creative.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script src="http://www.google.com/uds/solutions/dynamicfeed/gfdynamicfeedcontrol.js"
+type="text/javascript"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css">
+     
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.css">
+     
+    <!--  jQuery 1.7+  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+     
+    <!-- Include js plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.js"></script>
+
+    <!-- LinkedIn API -->
+    <script>
+        var settings = {
+          "async": true,
+          "crossDomain": true,
+          "url": "https://dev-bm50ff0m.auth0.com/oauth/token",
+          "method": "POST",
+          "headers": {
+            "content-type": "application/json"
+          },
+          "data": "{\"client_id\":\"DQlNTdJajmKpN03peJIGK4Wq4ehTmAi3\",\"client_secret\":\"9662KeoqlQUQB2eGWl-p_zPZGFe2GT32Z4Po4K_mWYshcuvfgxAZRg0f2wIZg3jO\",\"audience\":\"https://dev-bm50ff0m.auth0.com/api/v2/\",\"grant_type\":\"client_credentials\"}"
+        }
+
+        $.ajax(settings).done(function (response) {
+          console.log(response);
+        });
+    </script>
+
+    <!-- script for owl carousel -->
+    <script>
+    $(document).ready(function() {
+      $("#owl-demo").owlCarousel({
+          autoPlay: 3000, //Set AutoPlay to 3 seconds
+          items : 6,
+          itemsDesktop : [1199,3],
+          itemsDesktopSmall : [979,3]
+      });
+    });
+    </script>
+    <script>
+    $(document).ready(function() {
+      $("#owl-demo_1").owlCarousel({
+          autoPlay: 3000, //Set AutoPlay to 3 seconds
+          items : 3,
+          itemsDesktop : [1199,3],
+          itemsDesktopSmall : [979,3]
+      });
+    });
+    </script>
+    <style>
+    #owl-demo .item{
+      margin: 3px;
+    }
+    #owl-demo .item img{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    #owl-demo_1 .item{
+      margin: 3px;
+    }
+    #owl-demo_1 .item img{
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+</style>
+</head>
+
+<body id="page-top">
+
+    <!-- Navbar -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Lakshya</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#clintele">Clintele</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Navbar -->
+
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">Lakshya IT'<span style="font-size: 30px;">s</span> Services + Your Work 
+                        Makes Your Goals a Cakewalk.</h1>
+                <hr>
+                <p>Lakshya IT enabling Big time Organizations with its ITES and adding value to products delivered!</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Find Out More</a>
+            </div>
+        </div>
+    </header>
+    <!-- Header -->
+
+    <!-- About -->
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col-lg-8 col-lg-offset-2 text-center"> -->
+                    
+                <div class="vertical-tab">
+                <div class="row text-center">
+                  <div class="col-sm-2" style="margin-top: 100px;background-color: #fff;border-radius: 5px;padding-left: 0px;padding-right: 0px;">
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-tabs nav-stacked" role="tablist">
+                          <li role="presentation" class="active"><a href="#tab-5" class="waves-effect waves-light" role="tab" data-toggle="tab">About us</a></li>
+                          <li role="presentation"><a href="#tab-6" class="waves-effect waves-light" role="tab" data-toggle="tab">Our Vision</a></li>
+                          <li role="presentation"><a href="#tab-7" class="waves-effect waves-light" role="tab" data-toggle="tab">Our Mission</a></li>
+                          <li role="presentation"><a href="#tab-8" class="waves-effect waves-light" role="tab" data-toggle="tab">Our Culture</a></li>
+                          <li role="presentation"><a href="#tab-9" class="waves-effect waves-light" role="tab" data-toggle="tab">Our Team</a></li>
+                        </ul>                      
+                  </div>
+
+                  <div class="col-sm-10">
+                        <!-- Tab panes -->
+                        <div class="panel-body">
+                          <div class="tab-content">
+                            <div role="tabpanel"  class="tab-pane fade in active" id="tab-5">
+                                <h2>About Us</h2>
+
+                                <!-- <img class="alignright" src="assets/img/knowus/about.jpg" alt=""> -->
+
+                                <p class="text-faded"><strong>Lakshya IT Consulting Private Limited</strong> has started its journey in 2014 as an IT Service Provider to meet the Talent needs of its clients. With a mere start with 5 employees and 4 clients now Lakshya IT stands in the domestic and international market with over 50+ employees as our fulltime in house stakeholders and over 240+ and counting employees at various client locations on our roles.
+                                </p>
+                                <p class="text-faded">
+                                Lakshya IT has built a valuable space among the customers heart over the time. We are proud to say that “Lakshya IT is a customer oriented company”. Lakshya invests time in two ways one in recruiting a right talent and second to execute the product.
+                                </p>
+                                <p class="text-faded">
+                                Lakshya IT Services which are more Customer Centric includes Application Development & Support, Maintenance, Application Testing, Designing & Implementation and Talent Acquisition.
+                                </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="tab-6">
+                                <h2>Our Vision</h2>
+
+                                <!-- <img class="alignright" src="assets/img/knowus/whatwedo.jpg" alt=""> -->
+
+                                <p class="text-faded" style="padding-top:70px;">Lakshya IT always aims to deliver Products and Services in-time with higher standards, which add value to our customers business and brings a positive impact which adds longevity on their business needs.</p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="tab-7">
+                                <h2>Our Mission</h2>
+
+                                <!-- <img class="alignright" src="assets/img/knowus/vision.jpg" alt=""> -->
+
+                                <p class="text-faded" style="padding-top:60px;">The primary goal of Lakshya IT is “Total client satisfaction”
+                                Lakshya IT’s Management designed an agile path to achieve the quality over quantity to build sustainable solutions by building a great team with professionals who always aim for learning new things and trying to change the world.</p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="tab-8">
+                                <h2>Our Culture</h2>
+
+                                <!-- <img class="alignright" src="assets/img/knowus/mission.jpg" alt=""> -->
+
+                                <p class="text-faded" style="padding-top:30px;">Lakshya IT gives priority to client satisfaction at the same time sees that employee’s growth is happening. We provide them opportunities to grow, learn, and achieve the personal as well professional goals.<br><br>
+                                Our Company culture has evolved from our internal and external experiences "to make the change in the people lives". We realize that our employees are the reason behind our company growth and great success. We are sure that they continue their great efforts to be a part of our future success and competitiveness. 
+                                Professionalism: 
+                                Integrity: 
+                                Values: 
+                                Quality: 
+                                Teamwork: 
+                                </p>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="tab-9">
+                                <h2>Our Team</h2>
+
+                                <!-- <img class="alignright" src="assets/img/knowus/mission.jpg" alt=""> -->
+
+                                <p class="text-faded" style="padding-top:70px;">Lakshya IT’s Team is a package of Smart + hard working enthusiasts & aspirants. Our Team like Developers who loves coding hardly, designers who loves designing greatly and others like architects, leads etc..</p>
+                            </div>
+                          </div>
+                        </div>
+                  </div>
+                </div>
+            <!-- </div> -->
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- About -->
+
+
+    <!-- Portfolio -->
+    <section class="" id="portfolio" style="">
+        <div class="container-fluid">
+            <h2 class="section-heading text-center">Portfolio</h2>
+                    <hr class="primary">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-lg-6 col-sm-6">
+                    <a href="img/IT_Solutions.jpg" class="portfolio-box">
+                        <img src="img/IT_Solutions.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <!-- <div class="project-category text-faded">
+                                    Category
+                                </div> -->
+                                <div class="project-name">
+                                    IT SOLUTIONS
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-sm-6">
+                    <a href="img/Out_Sourcing.jpg" class="portfolio-box">
+                        <img src="img/Out_Sourcing.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <!-- <div class="project-category text-faded">
+                                    Category
+                                </div> -->
+                                <div class="project-name">
+                                    OUTSOURCING
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            <!--     <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Category
+                                </div>
+                                <div class="project-name">
+                                    Project Name
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- Portfolio -->
+
+    <!-- Technologies -->
+    <section class="" id="technologies">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Technologies</h2>
+                    <hr class="primary">
+                    <div id="owl-demo">
+          
+                          <div class="item"><img src="img/Images/Android.png" alt="Android" title="Android"></div>
+                          <div class="item"><img src="img/Images/Angularjs.png" alt="Angular" title="Angular"></div>
+                          <div class="item"><img src="img/Images/Blackberry.png" alt="IOS" title="Blackberry"></div>
+                          <div class="item"><img src="img/Images/Bootstrap.png" alt="Bootstrap" title="Bootstrap"></div>
+                          <div class="item"><img src="img/Images/CSS.png" alt="CSS3" title="CSS"></div>
+                          <div class="item"><img src="img/Images/Database.png" alt="Database" title="Database"></div>
+                          <div class="item"><img src="img/Images/Dotnet.png" alt="Dotnet" title="Dotnet"></div>
+                          <div class="item"><img src="img/Images/Hadoop.png" alt="Hadoop" title="Hadoop"></div>
+                          <div class="item"><img src="img/Images/HTML.png" alt="HTML" title="HTML"></div>
+                          <div class="item"><img src="img/Images/Illustrator.png" alt="Illustrator" title="Illustrator"></div>
+                          <div class="item"><img src="img/Images/Ionic.png" alt="Ionic" title="Ionic"></div>
+                          <div class="item"><img src="img/Images/IOS.png" alt="IOS" title="IOS"></div>
+                          <div class="item"><img src="img/Images/Java.png" alt="Java" title="Java"></div>
+                          <div class="item"><img src="img/Images/Javascript_1.png" alt="Javascript" title="Javascript"></div>
+                          <div class="item"><img src="img/Images/Jquery.png" alt="jQuery" title="jQuery"></div>
+                          <div class="item"><img src="img/Images/Mean.png" alt="Mean Stack" title="Mean Stack"></div>
+                          <div class="item"><img src="img/Images/MongoDB.png" alt="MongoDB" title="MongoDB"></div>
+                          <div class="item"><img src="img/Images/MS_Dynamics.png" alt="MS Dynamics" title="MS Dynamics"></div>
+                          <div class="item"><img src="img/Images/Node_JS.png" alt="NodeJs" title="NodeJs"></div>
+                          <div class="item"><img src="img/Images/Objective_C.png" alt="Objective_C" title="Objective_C"></div>
+                          <div class="item"><img src="img/Images/Oracle.png" alt="Oracle" title="Oracle"></div>
+                          <div class="item"><img src="img/Images/Pega.png" alt="Pega" title="Pega" style="margin-top:10px;"></div>
+                          <div class="item"><img src="img/Images/Perl.png" alt="Perl" title="Perl"></div>
+                          <div class="item"><img src="img/Images/Phonegap.png" alt="Phonegap" title="Phonegap"></div>
+                          <div class="item"><img src="img/Images/Photoshop.png" alt="Photoshop" title="Photoshop"></div>
+                          <div class="item"><img src="img/Images/Python.png" alt="NodeJs"></div>
+                          <div class="item"><img src="img/Images/SAP.png" alt="NodeJs"></div>
+                          <div class="item"><img src="img/Images/Sencha.png" alt="NodeJs"></div>
+                          <div class="item"><img src="img/Images/Sqlite.png" alt="NodeJs"></div>
+                          <div class="item"><img src="img/Images/Windows.png" alt="NodeJs"></div>
+                          <div class="item"><img src="img/Images/Xcode.png" alt="NodeJs"></div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+    <!-- Technologies -->
+
+    <!-- Services -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">At Your Service</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-xs-12">
+                    <div class="board">
+                        <!-- <h2>Welcome to IGHALO!<sup>™</sup></h2>-->
+                        <div class="board-inner">
+                            <ul class="nav nav-tabs nav-justified" id="myTab">
+                                <div class="liner"></div>
+                                <li class="active">
+                                    <a href="#app_development" data-toggle="tab" title="App Development" aria-expanded="false">
+                                        <span class="round-tabs two">
+                                            <i class="fa fa-4x fa-globe text-primary sr-icons"></i>
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="">
+                                    <a href="#mobile_development" data-toggle="tab" title="Mobile Development" aria-expanded="false">
+                                        <span class="round-tabs two">
+                                            <i class="fa fa-4x fa-mobile text-primary sr-icons"></i>
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="">
+                                    <a href="#erp" data-toggle="tab" title="ERP" aria-expanded="true">
+                                        <span class="round-tabs three">
+                                            <i class="fa fa-4x fa-cogs text-primary sr-icons"></i>
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="">
+                                    <a href="#customized_app" data-toggle="tab" title="Customized Applications" aria-expanded="false">
+                                        <span class="round-tabs four">
+                                            <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="">
+                                    <a href="#talent_aquisition" data-toggle="tab" title="Talent Aquisition" aria-expanded="false">
+                                        <span class="round-tabs four">
+                                            <i class="fa fa-4x fa-users text-primary sr-icons"></i>
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="">
+                                    <a href="#pega_consulting" data-toggle="tab" title="Pega Consulting" aria-expanded="false">
+                                        <span class="round-tabs five">
+                                            <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+                                        </span>
+                                    </a>
+                                </li>
+
+                                <li class="">
+                                    <a href="#cloud_technogies" data-toggle="tab" title="Clound Technologies" aria-expanded="false">
+                                        <span class="round-tabs five">
+                                            <i class="fa fa-4x fa-cloud text-primary sr-icons"></i>
+                                        </span>
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane active in" id="app_development">
+                                <h3>Web Development</h3>
+                                <p class="text-muted">In the Current Day of Digital World Website is the face of your organization. Lakshya IT enables your organization to become more understandable by your prospective leads and turning them into a valued customer by designing and presenting your ideas through your Digital Face-Website.</p>
+                            </div>
+                            <div class="tab-pane fade" id="mobile_development">
+                                <h3>Mobile App Development</h3>
+                                <p class="text-muted">Lakshya IT enables your organization to become more mobile and available through a responsive customized mobile application and reduce the response time and increase productivity.</p>
+                            </div>
+                            <div class="tab-pane fade" id="erp">
+                                <h3>ERP Solutions</h3>
+                                <p class="text-muted">Lakshya IT is able to meet the growing needs of organizations where their legacy systems couldn’t handle the growing business needs by providing with custom built ERP solutions which are capable to handle all near future traffic as well provide updates as per the growing needs of organizations.</p>
+                            </div>
+                            <div class="tab-pane fade" id="customized_app">
+                                <h3>Customized Applications</h3>
+                                <p class="text-muted">Though there are several free and paid applications in market that could meet the needs of organizations only a few could achieve 90% solution to the organization’s needs. To meet this lapse and provide the customer with 100+% fulfillment of needs Lakshya IT is providing customized applications.</p>
+                            </div>
+                            <div class="tab-pane fade" id="talent_aquisition">
+                                <h3>Talent Acquisition</h3>
+                                <p class="text-muted">In the IT market of ever evolving HR needs most of the organizations can’t afford to train their talent acquisition team to be familiar with all the tools and technologies to find the right fit for the project. To meet this need Lakshya Information Technology Industry has a dedicate pool of Talent Acquisition team who are having a broad knowledge of the wide spectrum of tools and technologies in IT, who can find the right fit for your need.</p>
+                            </div>
+                            <div class="tab-pane fade" id="pega_consulting">
+                                <h3>PEGA Consulting</h3>
+                                <p class="text-muted">As part of adapting to the sustainable solutions which will minimize efforts, reduce time taken and ultimately reduce cost and delivery time of projects, Lakshya IT has built a pool of Certified PEGA resources that are capable to develop solutions that could easily fit into a bigger solution by using PEGA-Platform. Thus Lakshya IT is providing PEGA Consulting Services as value addition to our Clients.</p>
+                            </div>
+                            <div class="tab-pane fade" id="cloud_technogies">
+                                <h3>Cloud Technologies</h3>
+                                <p class="text-muted">Availability of solutions and Data for usage and retrieval with minimum down time is the current trend and is what organizations are looking for. To meet these needs Lakshya IT is providing Cloud solutions from various service providers to make the customer solutions more available and accessible by their customers.</p>
+                            </div>                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-globe text-primary sr-icons"></i>
+                        <h3>Web Development</h3>
+                        <p class="text-muted">In the Current Day of Digital World Website is the face of your organization. Lakshya IT enables your organization to become more understandable by your prospective leads and turning them into a valued customer by designing and presenting your ideas through your Digital Face-Website.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-5x fa-mobile text-primary sr-icons"></i>
+                        <h3>Mobile App Development</h3>
+                        <p class="text-muted">Lakshya IT enables your organization to become more mobile and available through a responsive customized mobile application and reduce the response time and increase productivity.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-cogs text-primary sr-icons"></i>
+                        <h3>ERP Solutions</h3>
+                        <p class="text-muted">Lakshya IT is able to meet the growing needs of organizations where their legacy systems couldn’t handle the growing business needs by providing with custom built ERP solutions which are capable to handle all near future traffic as well provide updates as per the growing needs of organizations.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+                        <h3>Customized Applications</h3>
+                        <p class="text-muted">Though there are several free and paid applications in market that could meet the needs of organizations only a few could achieve 90% solution to the organization’s needs. To meet this lapse and provide the customer with 100+% fulfillment of needs Lakshya IT is providing customized applications.</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-users text-primary sr-icons"></i>
+                        <h3>Talent Acquisition</h3>
+                        <p class="text-muted">In the IT market of ever evolving HR needs most of the organizations can’t afford to train their talent acquisition team to be familiar with all the tools and technologies to find the right fit for the project. To meet this need Lakshya IT has a dedicate pool of Talent Acquisition team who are having a broad knowledge of the wide spectrum of tools and technologies in IT, who can find the right fit for your need.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+                        <h3>PEGA Consulting</h3>
+                        <p class="text-muted">As part of adapting to the sustainable solutions which will minimize efforts, reduce time taken and ultimately reduce cost and delivery time of projects, Lakshya IT has built a pool of Certified PEGA resources that are capable to develop solutions that could easily fit into a bigger solution by using PEGA-Platform. Thus Lakshya IT is providing PEGA Consulting Services as value addition to our Clients.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-cloud text-primary sr-icons"></i>
+                        <h3>Cloud Technologies</h3>
+                        <p class="text-muted">Availability of solutions and Data for usage and retrieval with minimum down time is the current trend and is what organizations are looking for. To meet these needs Lakshya IT is providing Cloud solutions from various service providers to make the customer solutions more available and accessible by their customers.</p>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </section>
+    <!-- Services -->
+
+    <!-- <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Free Download at Start Bootstrap!</h2>
+                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+            </div>
+        </div>
+    </aside> -->
+
+
+    <!-- Clintele -->
+    <section class="" id="clintele">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Clients and Partners</h2>
+                    <hr class="primary">
+                    <div id="owl-demo_1">
+                            <div class="item"><img src="img/Clients/AppsAssociates.png" alt="Apps Associates" title="AppsAssociates"></div>
+                          <div class="item"><img src="img/Clients/AvlonSolutions.png" alt="Avlon Solutions" title="Avlon Solutions"></div>
+                          <div class="item"><img src="img/Clients/Biztechnix.png" alt="Biztechnix" title="Biztechnix"></div>
+                          <div class="item"><img src="img/Clients/Bodhtree.png" alt="Bodhtree" title="Bodhtree"></div>
+                          <div class="item"><img src="img/Clients/Datafactz.png" alt="Datafactz" title="Datafactz"></div>
+                          <div class="item"><img src="img/Clients/DharaniTechnologies.png" alt="Dharani Technologies" title="Dharani Technologies"></div>
+                          <div class="item"><img src="img/Clients/Doyensys.png" alt="Doyensys" title="Doyensys"></div>
+                          <div class="item"><img src="img/Clients/EdelweissTokio.png" alt="Edelweiss Tokio" title="Edelweiss Tokio"></div>
+                          <div class="item"><img src="img/Clients/Enstrapp.png" alt="Enstrapp" title="Enstrapp"></div>
+                          <div class="item"><img src="img/Clients/ePragati.png" alt="ePragati" title="ePragati"></div>
+                          <div class="item"><img src="img/Clients/EY.png" alt="EY" title="EY"></div>
+                          <div class="item"><img src="img/Clients/FirstSource.png" alt="FirstSource" title="FirstSource"></div>
+                          <div class="item"><img src="img/Clients/HalfenMoment.png" alt="Halfen Moment" title="Halfen Moment"></div>
+                          <div class="item"><img src="img/Clients/HansaSolutions.png" alt="Hansa Solutions" title="Hansa Solutions"></div>
+                          <div class="item"><img src="img/Clients/Hybrent.png" alt="Hybrent" title="Hybrent"></div>
+                          <div class="item"><img src="img/Clients/Infosys.png" alt="Infosys" title="Infosys"></div>
+                          <div class="item"><img src="img/Clients/Intelegain.png" alt="Intelegain" title="Intelegain"></div>
+                          <div class="item"><img src="img/Clients/Internetimm.png" alt="Internetimm" title="Internetimm"></div>
+                          <div class="item"><img src="img/Clients/JKT.png" alt="JKT" title="JKT"></div>
+                          <div class="item"><img src="img/Clients/MergenIT.png" alt="MergenIT" title="MergenIT"></div>
+                          <div class="item"><img src="img/Clients/Orbcomm.png" alt="Orbcomm" title="Orbcomm"></div>
+                          <div class="item"><img src="img/Clients/OSI.png" alt="OSI" title="OSI"></div>
+                          <div class="item"><img src="img/Clients/OSIS.png" alt="OSIS" title="OSIS"></div>
+                          <div class="item"><img src="img/Clients/Sibelco.png" alt="Sibelco" title="Sibelco"></div>
+                          <div class="item"><img src="img/Clients/SierraCedar.png" alt="SierraCedar" title="SierraCedar"></div>
+                          <div class="item"><img src="img/Clients/Syntel.png" alt="Syntel" title="Syntel"></div>
+                          <div class="item"><img src="img/Clients/TCS.png" alt="TCS" title="TCS"></div>
+                          <div class="item"><img src="img/Clients/TechM.png" alt="TechM" title="Tech Manhindra"></div>
+                          <div class="item"><img src="img/Clients/Teksystems.png" alt="Teksystems" title="Teksystems"></div>
+                          <div class="item"><img src="img/Clients/Unilever.png" alt="Unilever" title="Unilever"></div>
+                          <div class="item"><img src="img/Clients/Xoriant.png" alt="Xoriant" title="Xoriant"></div>
+                          <div class="item"><img src="img/Clients/ZensarTechnologies.png" alt="Zensar Technologies" title="Zensar Technologies"></div>
+                          <!-- <div class="item"><img src="img/Clients/epragathi.png" alt="Epragathi"></div>
+                          <div class="item"><img src="img/Clients/ey.png" alt="EnY"></div>
+                          
+                          
+                          <div class="item" style="padding-top: 60px;"><img src="img/Clients/TCS.png" alt="TCS"></div>
+                          
+                          <div class="item"><img src="img/Clients/jkt.png" alt="JK Techno Soft"></div>
+                          <div class="item" style="padding-top: 90px;"><img src="img/Clients/hybrent_full_logo.png" alt="Hybrent Technologies"></div>
+                          <div class="item"><img src="img/Clients/techm.png" alt="Tech Manhindra"></div> -->
+                          <!-- <div class="item"><img src="img/Images/Javascript.png" alt="Javascript"></div>
+                          <div class="item"><img src="img/Images/jquery.png" alt="jQuery"></div>
+                          <div class="item"><img src="img/Images/meanstack.png" alt="MEAN Stack"></div>
+                          <div class="item"><img src="img/Images/node.png" alt="NodeJs"></div>
+                          <div class="item"><img src="img/Images/pega.png" alt="PEGA"></div> -->
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </section>
+    <!-- Clintele -->
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <h2 class="section-heading text-center">Let's Get In Touch!</h2>
+                        <hr class="primary">
+                <div class="col-lg-8 col-xs-12">
+                    <!-- <div class="col-lg-8 col-lg-offset-2 text-center"> -->
+                        
+                        <p class="text-center" style="margin-top: 100px;">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p>
+                    <!-- </div> -->
+                    <div class="col-lg-4 col-lg-offset-2 text-center">
+                        <i class="fa fa-phone fa-3x sr-contact"></i>
+                        <p>0866-6612661</p>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                        <p><a href="mailto:contact@lakshyait.in">contact@lakshyait.in</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xs-12">
+                    <!-- <div class="col-lg-8 col-lg-offset-2 text-center"> -->
+                        <!-- <div class="ex1">    -->
+                            <h3>Twitter Feeds<span style="color: #38A1F3">   <i class="fa fa-twitter" aria-hidden="true"></i></span></h3>
+                          <a class="twitter-timeline" data-lang="en" data-width="400" data-chrome="noheader, nofooter"  data-height="300" data-theme="light" data-link-color="#E95F28" href="https://twitter.com/Lakshya_IT?ref_src=twsrc%5Etfw">Tweets by Lakshya_IT</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        <!-- </div> -->
+                    <!-- </div> -->
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+
+    <!-- jQuery -->
+    <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+
+</body>
+
+</html>
